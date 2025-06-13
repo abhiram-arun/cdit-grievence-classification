@@ -1,6 +1,6 @@
 # IndicTrans2 Malayalam to English Translation
 
-A Malayalam-English bilingual grievance classification system that categorizes Malayalam citizen inputs into:
+A Malayalam-English bilingual grievance classification system that categorizes Malayalam speaking citizen's inputs into:
 
     🏢 Department
 
