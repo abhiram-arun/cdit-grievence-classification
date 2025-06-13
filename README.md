@@ -24,6 +24,7 @@ This tool translates Malayalam "subject" and "micro-subject" columns in an Excel
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 bash install.sh
+```
 
 ## Usage
 
