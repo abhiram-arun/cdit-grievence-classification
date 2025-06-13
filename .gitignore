@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.ipynb
+Translated_final.xlsx
+IndicTrans2/
+IndicTransToolkit/
+venv/
