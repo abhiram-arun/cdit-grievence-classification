@@ -38,8 +38,8 @@ classify.py = Given a Malayalam or English input grievance, classifies it into:
 
     Most relevant Micro-subject (under that subject)
 
-    input provided as a string in the last line 
+Input provided as a string in the last line 
             
-            classify("Your required grievence")
+    classify("Your required grievence")
 
 
