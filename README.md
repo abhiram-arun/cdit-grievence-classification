@@ -1,5 +1,4 @@
-# IndicTrans2 Malayalam to English Translation
-
+# Grievance Classification for CMO Portal
 A Malayalam-English bilingual grievance classification system that categorizes Malayalam citizen inputs into:
 
     🏢 Department
