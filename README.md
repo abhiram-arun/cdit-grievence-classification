@@ -8,7 +8,7 @@ A Malayalam-English bilingual grievance classification system that categorizes M
 
     📄 Micro-Subject
 
-using IndicTrans2 for translation and Sentence Transformers for semantic similarity.
+Using IndicTrans2 for translation and Sentence Transformers for semantic similarity.
 
 This tool translates Malayalam "subject" and "micro-subject" columns in an Excel file into English using [AI4Bharat's IndicTrans2](https://github.com/AI4Bharat/IndicTrans2) and [IndicTransToolkit](https://github.com/VarunGumma/IndicTransToolkit).
 
