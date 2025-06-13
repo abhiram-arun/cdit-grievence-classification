@@ -54,7 +54,7 @@ def classify(text):
     dept_sim = cosine_similarity([embedding], data["dept_embeddings"])[0]
     best_dept_idx = dept_sim.argmax()
     best_dept = data["dept_texts"][best_dept_idx]
-    print(f"\n🧭 Department: {best_dept} (score: {dept_sim[best_dept_idx]:.4f})")
+    print(f"\n Department: {best_dept} (score: {dept_sim[best_dept_idx]:.4f})")
 
     # --- Subject ---
     subject_filtered = data["subject_rows"][data["subject_rows"]["department"] == best_dept]
@@ -66,7 +66,7 @@ def classify(text):
     subj_sim = cosine_similarity([embedding], subject_embeddings)[0]
     best_subj_idx = subj_sim.argmax()
     best_subject = subject_filtered.iloc[best_subj_idx]["subjectNameEng"]
-    print(f"📚 Subject: {best_subject} (score: {subj_sim[best_subj_idx]:.4f})")
+    print(f" Subject: {best_subject} (score: {subj_sim[best_subj_idx]:.4f})")
 
     # --- Micro-Subject ---
     if isinstance(data["micro_rows"], pd.DataFrame) and not data["micro_rows"].empty:
@@ -84,9 +84,9 @@ def classify(text):
             micro_sim = cosine_similarity([embedding], micro_embeddings)[0]
             best_micro_idx = micro_sim.argmax()
             best_micro = micro_filtered.iloc[best_micro_idx]["microSubjectNameEng"]
-            print(f"🔍 Micro-Subject: {best_micro} (score: {micro_sim[best_micro_idx]:.4f})")
+            print(f" Micro-Subject: {best_micro} (score: {micro_sim[best_micro_idx]:.4f})")
 
 
-# 👉 Example usage:
+# Example usage:
 
-classify("പുന്നപ്ര പ്രദേശത്തെ കുടിവെള്ള ക്ഷാമം ദൈനംദിന ജീവിതത്തെ ബാധിക്കുന്നു.")
+classify("പുന്നപ്ര കാച്ചിൽമുക്ക് പ്രദേശത്തെ കുടിവെള്ള ക്ഷാമം ദൈനംദിന ജീവിതത്തെ ബാധിക്കുന്നു.")
