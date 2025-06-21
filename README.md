@@ -21,8 +21,8 @@ This tool translates Malayalam "subject" and "micro-subject" columns in an Excel
 ## 🔧 Setup
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/abhiram-arun/cdit-grievence-classification
+cd cdit-grievence-classification
 bash install.sh
 ```
 
